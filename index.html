@@ -1,0 +1,281 @@
+<!doctype html><html lang="sk"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Cassovia Pub · pub v Košiciach — neoficiálny návrh</title>
+<meta name="description" content="Neoficiálny návrh homepage pre Cassovia Pub v Košiciach: športové prenosy, šípky, disco, kuchyňa až do rána. Ukážka od webdavid.sk.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedan&family=Fira+Sans+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --basalt:#1C1B19; --mortar:#121110; --granite:#2C2A27; --granite2:#353230;
+  --lime:#C3BAAA; --lime-d:#A89F8F; --cut:#6F675B;
+  --chalk:#E6E0D5; --dim:#A39C90; --amber:#D4A04C; --amber-d:#B9883A;
+  --serif:"Sedan",Georgia,serif; --cond:"Fira Sans Condensed","Arial Narrow",sans-serif;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .32 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --mottle:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1800' height='1100'%3E%3Cfilter id='m'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.006 .011' numOctaves='4' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .22 -.04'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23m)'/%3E%3C/svg%3E");
+}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--basalt);color:var(--chalk);font:400 17px/1.6 var(--cond)}
+a{color:inherit}
+svg{max-width:100%;height:auto}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+.in{max-width:1200px;margin:0 auto;padding:0 clamp(16px,3.5vw,36px)}
+.cap{font:600 13px/1.3 var(--cond);letter-spacing:.2em;text-transform:uppercase}
+.tab{font-variant-numeric:tabular-nums}
+.ul{text-decoration:none;background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;transition:background-size .2s}
+.ul:hover{background-size:100% 1px}
+/* kameň */
+.granite{background:var(--mottle),var(--grain),var(--granite);box-shadow:inset 1px 1px 0 rgba(255,255,255,.07),inset -2px -2px 0 rgba(0,0,0,.45)}
+.chisel{color:#A39C8F;text-shadow:0 -1.5px 0 rgba(0,0,0,.75),0 1px 0 rgba(255,255,255,.16),0 0 1px rgba(0,0,0,.35)}
+
+.notice{background:#0D0C0B;color:var(--chalk);font:400 14px/1.45 var(--cond);padding:9px 16px;text-align:center}
+
+/* hlavička */
+.hd{border-bottom:1px solid rgba(230,224,213,.1)}
+.hd .in{display:flex;align-items:center;gap:30px;min-height:74px}
+.logo{font:400 22px/1 var(--serif);letter-spacing:.24em;text-decoration:none;padding:12px 0}
+.logo span{color:var(--dim)}
+.menu{display:flex;gap:28px;margin-left:auto}
+.menu a{font:500 14px/1 var(--cond);letter-spacing:.14em;text-transform:uppercase;padding:14px 0}
+.call{font:600 17px/1 var(--cond);text-decoration:none;padding:14px 0}
+.act{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;background:var(--amber);color:#1C1B19;font:700 15px/1 var(--cond);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;transition:background .2s}
+.act:hover{background:var(--amber-d)}
+.act.line{background:transparent;color:var(--chalk);box-shadow:inset 0 0 0 1px rgba(230,224,213,.4)}
+.act.line:hover{background:rgba(230,224,213,.06)}
+
+/* hero: tabuľa */
+.hero{padding:44px 0 0}
+.slab{position:relative;padding:clamp(40px,6vw,74px) clamp(20px,5vw,64px) clamp(36px,5vw,58px);text-align:left;
+  clip-path:polygon(0 1.2%,6% 0,38% .8%,71% 0,100% 1.5%,99.6% 46%,100% 98%,64% 100%,22% 99.2%,.4% 100%,0 55%)}
+.slab .cap{color:var(--dim)}
+h1{font:400 clamp(60px,14.4vw,186px)/.9 var(--serif);letter-spacing:.06em;margin:18px 0 6px;margin-left:-.04em}
+h1 small{display:block;font-size:.3em;letter-spacing:.5em;margin-top:.35em}
+.slab hr{border:0;height:2px;width:min(520px,70%);margin:30px 0 24px;background:var(--amber)}
+.slab q{display:block;quotes:"„" "“";font:400 clamp(20px,2.2vw,27px)/1.4 var(--serif);max-width:40ch;color:var(--chalk)}
+.slab .src{font-size:14px;color:var(--dim);margin-top:12px}
+.slab .row{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:6px}
+.facts > div{padding:22px 26px}
+.facts b{display:block;font:600 34px/1.05 var(--cond);color:var(--amber);font-variant-numeric:tabular-nums}
+.facts span{display:block;font-size:15px;color:var(--chalk);margin-top:6px}
+.facts small{display:block;font-size:13px;color:var(--dim)}
+
+/* money: vápencová tabuľa s hodinami */
+.hours{padding:72px 0}
+.lime{position:relative;display:grid;grid-template-columns:1fr 1.05fr;gap:56px;color:#24211D;padding:clamp(30px,5vw,64px);
+  background:var(--mottle),var(--grain),var(--lime);
+  box-shadow:inset 2px 2px 0 rgba(255,255,255,.35),inset -3px -3px 0 rgba(0,0,0,.25),0 0 0 6px var(--mortar)}
+.lime h2{font:400 clamp(40px,5.4vw,74px)/.98 var(--serif);letter-spacing:.04em;text-transform:uppercase;color:var(--cut);
+  text-shadow:0 -2px 1px rgba(40,34,26,.55),0 2px 1px rgba(255,255,255,.5);margin:14px 0 22px}
+.lime .cap{color:#4E4840}
+.lime p{max-width:38ch;font-size:17px}
+.lime .note{font-size:14px;color:#4E4840;margin-top:16px}
+.lime .act{margin-top:24px;background:#24211D;color:var(--chalk)}
+.lime .act:hover{background:#3A352E}
+.hrs{list-style:none;padding:0;align-self:center;border-top:2px solid rgba(36,33,29,.75)}
+.hrs li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:15px 2px;border-bottom:1px solid rgba(36,33,29,.25)}
+.hrs span{font:500 16px/1.2 var(--cond);letter-spacing:.14em;text-transform:uppercase}
+.hrs b{font:600 clamp(26px,3vw,38px)/1 var(--cond);font-variant-numeric:tabular-nums;letter-spacing:.01em}
+.hrs li.off b{font-weight:400;color:#5F584E;font-size:22px}
+
+/* múr */
+.wall{padding:24px 0 80px}
+.head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:26px}
+.head h2{font:400 clamp(34px,4.2vw,54px)/1 var(--serif);letter-spacing:.05em;text-transform:uppercase}
+.head p{color:var(--dim);font-size:15px;max-width:34ch}
+.course{display:grid;gap:6px;margin-bottom:6px}
+.c1{grid-template-columns:1.5fr 1fr 1.2fr}
+.c2{grid-template-columns:.8fr 1.3fr 1fr 1fr}
+.block{min-height:150px;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px 16px}
+.block strong{font:400 clamp(24px,2.7vw,38px)/1.08 var(--serif);letter-spacing:.07em;text-transform:uppercase}
+.block.lit{background:var(--mottle),var(--grain),#463F35}
+.block.lit strong{color:var(--amber);text-shadow:0 -2px 1px rgba(0,0,0,.7),0 1px 0 rgba(255,255,255,.1)}
+
+/* lístok + dobré vedieť */
+.info{padding:0 0 80px}
+.info .in{display:grid;grid-template-columns:1.25fr 1fr;gap:6px}
+.info .granite{padding:36px 36px 40px}
+.info h2{font:400 32px/1.1 var(--serif);letter-spacing:.05em;text-transform:uppercase;margin:12px 0 14px}
+.info .cap{color:var(--amber)}
+.info p{color:var(--chalk);max-width:44ch}
+.info .muted{color:var(--dim);font-size:14.5px;margin-top:12px}
+.info .act{margin-top:24px}
+.know{list-style:none;padding:0}
+.know li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid rgba(230,224,213,.12);font-size:16px}
+.know li b{font-weight:600;color:var(--chalk);text-align:right}
+
+/* kontakt */
+.contact{padding:0 0 90px}
+.contact .grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:6px}
+.contact .granite{padding:34px 32px}
+.contact h2{font:400 clamp(30px,3.4vw,44px)/1.05 var(--serif);letter-spacing:.05em;text-transform:uppercase;margin:12px 0 16px}
+.contact h3{color:var(--amber)}
+.flag{display:inline-block;background:var(--amber);color:#1C1B19;font:700 12px/1 var(--cond);letter-spacing:.16em;text-transform:uppercase;padding:6px 9px;margin-bottom:12px}
+.addr{font:500 22px/1.3 var(--cond)}
+.addr + small,.alt{display:block;color:var(--dim);font-size:14.5px;margin-top:4px}
+.alt{margin-top:14px}
+.big{display:inline-block;font:600 26px/1.2 var(--cond);font-variant-numeric:tabular-nums;text-decoration:none;padding:8px 0}
+.lst{list-style:none;padding:0;margin-top:10px}
+.lst a{display:inline-block;padding:9px 0;font-weight:500}
+.src2{color:var(--dim);font-size:14px;margin-top:8px}
+
+footer{border-top:1px solid rgba(230,224,213,.1);padding:30px 0 36px}
+footer .in{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--dim)}
+footer .mark{font-family:var(--serif);letter-spacing:.3em;text-transform:uppercase}
+
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:none;gap:8px;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(18,17,16,.96);border-top:1px solid rgba(230,224,213,.12)}
+.bar a{flex:1;min-height:50px}
+
+@media (max-width:980px){
+  .menu{display:none}
+  .lime{grid-template-columns:1fr;gap:28px}
+  .info .in{grid-template-columns:1fr}
+  .contact .grid{grid-template-columns:1fr}
+  .c2{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  body{font-size:16px;padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+  .hd .call,.hd .act{display:none}
+  .logo{font-size:19px;letter-spacing:.2em}
+  .bar{display:flex}
+  .hero{padding-top:20px}
+  h1{letter-spacing:.02em;font-size:clamp(46px,14.6vw,76px)}
+  h1 small{letter-spacing:.42em}
+  .slab .row .act{flex:1}
+  .facts{grid-template-columns:1fr}
+  .facts > div{display:grid;grid-template-columns:auto 1fr;gap:0 18px;align-items:center;padding:18px 20px}
+  .facts b{grid-row:1/3;font-size:28px}
+  .facts span{margin:0}
+  .hours{padding:48px 0}
+  .hrs b{font-size:24px}
+  .hrs span{font-size:14px;letter-spacing:.1em}
+  .head{display:block}.head p{margin-top:10px}
+  .c1,.c2{grid-template-columns:1fr 1fr}
+  .c1 .block:first-child{grid-column:1/-1}
+  .block{min-height:104px}
+  .block strong{font-size:21px}
+  .info .granite,.contact .granite{padding:28px 20px}
+  .wall{padding-bottom:56px}.info,.contact{padding-bottom:56px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="notice">Neoficiálny návrh — nie je to oficiálny web podniku · ukážka od webdavid.sk, objednávky ani rezervácie tu nefungujú</div>
+
+<header class="hd"><div class="in">
+  <a class="logo" href="#" aria-label="Cassovia Pub — úvod">CASSOVIA <span>PUB</span></a>
+  <nav class="menu" aria-label="Hlavná navigácia"><a class="ul" href="#hodiny">Hodiny</a><a class="ul" href="#co-tu">Čo sa tu deje</a><a class="ul" href="#kontakt">Kontakt</a></nav>
+  <a class="call tab" href="tel:+421911536066">+421 911 536 066</a>
+  <a class="act" href="tel:+421911536066">Zavolať</a>
+</div></header>
+
+<main>
+<section class="hero"><div class="in">
+  <div class="slab granite">
+    <p class="cap">Pub · Košice</p>
+    <h1 class="chisel">CASSOVIA<small aria-label="Pub">· PVB ·</small></h1>
+    <hr>
+    <q>Miesto plné jedla, zábavy a zážitkov – športové prenosy, šípky, disco, oslavy, svadby, kuchyňa až do rána</q>
+    <p class="src">— popis podniku na Zľavomate</p>
+    <div class="row">
+      <a class="act" href="tel:+421911536066">Zavolať</a>
+      <a class="act line" href="#hodiny">Otváracie hodiny</a>
+    </div>
+  </div>
+  <div class="facts">
+    <div class="granite"><b>4,6 ★</b><span>Google, 32 hodnotení</span><small>podľa verejných údajov, overiť</small></div>
+    <div class="granite"><b>4,3/5</b><span>Zľavomat, 7 hodnotení</span><small>stav k 1. 10. 2026</small></div>
+    <div class="granite"><b class="tab">do 05:00</b><span>v piatok a v sobotu</span><small>podľa Zľavomatu, overiť</small></div>
+  </div>
+</div></section>
+
+<section class="hours" id="hodiny" aria-labelledby="hodiny-h"><div class="in">
+  <div class="lime">
+    <div>
+      <p class="cap">Otváracie hodiny</p>
+      <h2 id="hodiny-h">Kuchyňa až do rána</h2>
+      <p>Šesť dní v týždni od popoludnia do skorých ranných hodín, v pondelok zatvorené.</p>
+      <p class="note">Hodiny podľa profilu na Zľavomate (1. 10. 2026). Je to jediný zdroj, preto ich pred návštevou overte telefonicky.</p>
+      <a class="act" href="https://www.bistro.sk/restauracia/cassovia-pub" rel="noopener">Rozvoz cez bistro.sk</a>
+    </div>
+    <ul class="hrs" aria-label="Otváracie hodiny, overiť">
+      <li class="off"><span>Pondelok</span><b>zatvorené</b></li>
+      <li><span>Utorok – štvrtok</span><b>16:00 – 04:00</b></li>
+      <li><span>Piatok – sobota</span><b>16:00 – 05:00</b></li>
+      <li><span>Nedeľa</span><b>17:00 – 03:00</b></li>
+    </ul>
+  </div>
+</div></section>
+
+<section class="wall" id="co-tu" aria-labelledby="co-h"><div class="in">
+  <div class="head"><h2 id="co-h">Čo sa tu deje</h2><p>Slovami z ich vlastného popisu na Zľavomate.</p></div>
+  <div class="course c1">
+    <div class="block granite"><strong class="chisel">Športové prenosy</strong></div>
+    <div class="block granite"><strong class="chisel">Šípky</strong></div>
+    <div class="block lit"><strong>Disco</strong></div>
+  </div>
+  <div class="course c2">
+    <div class="block granite"><strong class="chisel">Oslavy</strong></div>
+    <div class="block lit"><strong>Kuchyňa do rána</strong></div>
+    <div class="block granite"><strong class="chisel">Svadby</strong></div>
+    <div class="block granite"><strong class="chisel">Jedlo</strong></div>
+  </div>
+</div></section>
+
+<section class="info" aria-label="Lístok a praktické informácie"><div class="in">
+  <div class="granite">
+    <p class="cap">Jedálny a nápojový lístok</p>
+    <h2>Lístok</h2>
+    <p>Ukážka návrhu: jedálny a nápojový lístok s cenami doplní podnik.</p>
+    <p class="muted">Jedlo s rozvozom sa dá objednať cez bistro.sk; podľa verejných údajov aj cez Bolt Food (overiť).</p>
+    <a class="act line" href="https://www.bistro.sk/restauracia/cassovia-pub" rel="noopener">Ponuka na bistro.sk</a>
+  </div>
+  <div class="granite">
+    <p class="cap">Dobré vedieť</p>
+    <h2>Pred návštevou</h2>
+    <ul class="know">
+      <li><span>Platobné karty</span><b>neprijímajú</b></li>
+      <li><span>Vlastné parkovanie</span><b>nie je</b></li>
+      <li><span>Bezbariérový prístup</span><b>nie</b></li>
+    </ul>
+    <p class="muted">Podľa profilu na Zľavomate (1. 10. 2026), overiť.</p>
+  </div>
+</div></section>
+
+<section class="contact" id="kontakt" aria-labelledby="kontakt-h"><div class="in">
+  <div class="grid">
+    <div class="granite">
+      <p class="cap" style="color:var(--amber)">Adresa</p>
+      <h2 id="kontakt-h">Kde je pub</h2>
+      <span class="flag">Adresu overiť</span>
+      <p class="addr">Hlavná 114, 040 01 Košice</p>
+      <small>podľa Google a bistro.sk</small>
+      <p class="alt">Zľavomat uvádza Bačíkova 1, Košice – Staré Mesto. Zdroje sa líšia.</p>
+      <ul class="lst"><li><a class="ul" href="https://www.google.com/maps/search/Cassovia+Pub+Ko%C5%A1ice" rel="noopener">Nájsť v Google Maps</a></li></ul>
+    </div>
+    <div class="granite">
+      <h3 class="cap">Telefón a e-mail</h3>
+      <a class="big" href="tel:+421911536066">+421 911 536 066</a>
+      <ul class="lst"><li><a class="ul" href="mailto:cassoviabar@gmail.com">cassoviabar@gmail.com</a></li></ul>
+      <p class="src2">Kontakty podľa Zľavomatu, overiť.</p>
+    </div>
+    <div class="granite">
+      <h3 class="cap">Sledujte nás</h3>
+      <ul class="lst">
+        <li><a class="ul" href="https://www.facebook.com/p/Cassovia-Pub-61576567139629/" rel="noopener">Facebook</a></li>
+        <li><a class="ul" href="https://www.instagram.com/cassovia_pub/" rel="noopener">Instagram</a></li>
+        <li><a class="ul" href="https://www.zlavomat.sk/podnik/45022-cassovia-pub" rel="noopener">Profil na Zľavomate</a></li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="in"><span>Neoficiálny návrh webu · webdavid.sk · 2026</span><span class="mark">Cassovia · Pub</span></div></footer>
+
+<nav class="bar" aria-label="Rýchle akcie">
+  <a class="act" href="tel:+421911536066">Zavolať</a>
+  <a class="act line" href="https://www.google.com/maps/search/Cassovia+Pub+Ko%C5%A1ice" rel="noopener">Navigovať</a>
+</nav>
+</html>
